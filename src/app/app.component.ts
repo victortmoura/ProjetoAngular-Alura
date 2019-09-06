@@ -6,7 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = "Victor";
-  url = "https://i.pinimg.com/originals/5b/be/51/5bbe514dd733c24cf53b26dcc5b61d30.jpg";
-  description="leão";
+  
+  photos = [{
+    url: "http://s2.glbimg.com/qhJo_3UUb0jOQ7yKS1p1h5J5Z48=/e.glbimg.com/og/ed/f/original/2015/05/20/toyota-supra-frente.jpg";
+    description:"Supra"
+  },
+  {
+    url:"https://img.olx.com.br/images/00/009826089049450.jpg",
+    description:"Nissan370Z"
+  }
+  ];
 }
